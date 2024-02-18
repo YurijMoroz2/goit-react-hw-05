@@ -1,0 +1,41 @@
+.header {
+    margin-bottom: 8px;
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    padding: 8px;
+    background-color: blue;
+  }
+  
+  .inputBox {
+    width: 320px;
+    border-radius: 20px;
+  height: 45px;
+    display: flex;
+    gap: 10px;
+    background: #e8e8e2;
+    border: 1px solid rgba(1, 1, 1, 0.3);
+    justify-content: center;
+    /* padding: 14px 20px; */
+    transition: border 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  .inp {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    border: none;
+    background-color: inherit;
+  }
+  
+  .inp:focus-visible {
+    outline: none;
+    background-color: aqua;
+  }
+  
+  .inputBtn {
+    border-radius: 20px;
+  
+    border: none;
+    background-color: inherit;
+  }

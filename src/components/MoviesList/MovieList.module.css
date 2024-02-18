@@ -1,0 +1,5 @@
+.linkItem {
+  color: gainsboro;
+  text-decoration: none;
+}
+.linkItem:visited{color: blueviolet;}

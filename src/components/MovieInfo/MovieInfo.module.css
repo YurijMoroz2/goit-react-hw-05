@@ -1,0 +1,10 @@
+  .box{
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+  }
+  .genres{
+    display: flex;
+    gap: 10px;
+  }
+ 
